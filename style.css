@@ -1,0 +1,135 @@
+/* Reset dasar untuk tampilan lebih konsisten */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header utama */
+  .header {
+    background-color: #0074D9;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  /* Tampilan section dan heading */
+  section {
+    background: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #0074D9;
+    margin-bottom: 1rem;
+  }
+  
+  /* Tabel daftar ruangan */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #0074D9;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Formulir Reservasi */
+  form {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  input, button {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 4px;
+  }
+  
+  input {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  button {
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Pesan kesalahan */
+  #error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
+  
+  /* Daftar Reservasi */
+  ul#reservations {
+    list-style-type: none;
+  }
+  
+  ul#reservations li {
+    background: #f9f9f9;
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 4px solid #0074D9;
+  }
+  
+  ul#reservations button {
+    padding: 5px 10px;
+    background: #e74c3c;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  ul#reservations button:hover {
+    background: #c0392b;
+  }
+  
